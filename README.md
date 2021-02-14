@@ -1,2 +1,5 @@
 # VOIX
 Created with CodeSandbox
+La web app si apre con la pagina delle news dove si possono trovare le ultime notizie organizzate in card; in questa pagina è possibile navigare senza essere loggati così come nella pagine: search, notizia specifica e top stories. Tramite la select, situata al di sopra delle notizie, è possibile selezionare una categoria e filtrare le news per la categoria scelta. Cliccando su una notizia si arriva alla pagina ad essa dedicata. Per giungere alla pagina dei preferiti, invece, è necessario loggarsi. I collegamenti a queste pagine si trovano nella navigation drawer. Nella pagina “search” inserendo una lettera o parole è possibile ricercare articoli che contengono quella lettera o parola all’interno del titolo. 
+Tutte le informazioni sugli articoli sono state ottenute tramite delle richieste alle API del New York Times. 
+Se l’utente decide di effettuare il login troverà nelle varie card un’icona a forma di cuore che gli permetterà di inserire quella determinata notizia nella sezione “preferiti”, e potrà commentare gli articoli che desidera. I like e i commenti sono salvati nel database firestore. 
